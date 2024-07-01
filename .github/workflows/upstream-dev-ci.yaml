@@ -15,7 +15,7 @@ jobs:
   upstream-dev:
     name: upstream-dev
     runs-on: ubuntu-latest
-    if: github.repository == 'xarray-contrib/xwrf'
+    if: github.repository == 'lpilz/wps_xr'
     defaults:
       run:
         shell: bash -l {0}
